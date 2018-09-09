@@ -1,0 +1,103 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:background="@color/colorPrimary"
+    android:layout_height="wrap_content"
+    android:scrollbars="vertical">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:paddingLeft="5dp"
+        android:paddingRight="5dp"
+        android:background="@color/colorPrimary"
+        android:paddingTop="5dp"
+        android:paddingBottom="5dp"
+        android:orientation="vertical">
+
+        <Button
+            android:id="@+id/sem1"
+            android:layout_width="match_parent"
+            android:layout_marginTop="3dp"
+            android:layout_height="125dp"
+            android:background="@drawable/gradient"
+            android:text="@string/sem1"
+            android:gravity="center"
+            android:textColor="#FFFFFF"
+            android:textSize="24dp" />
+        <Button
+            android:id="@+id/sem2"
+            android:layout_width="match_parent"
+            android:layout_marginTop="5dp"
+            android:layout_height="125dp"
+            android:background="@drawable/gradient1"
+            android:text="@string/sem2"
+            android:gravity="center"
+            android:textColor="#FFFFFF"
+            android:textSize="24dp" />
+        <Button
+            android:id="@+id/sem3"
+            android:layout_width="match_parent"
+            android:layout_marginTop="5dp"
+            android:layout_height="125dp"
+            android:background="@drawable/gradient2"
+            android:text="@string/sem3"
+            android:gravity="center"
+            android:textColor="#FFFFFF"
+            android:textSize="24dp" />
+        <Button
+            android:id="@+id/sem4"
+            android:layout_width="match_parent"
+            android:layout_marginTop="5dp"
+            android:layout_height="125dp"
+            android:background="@drawable/gradient3"
+            android:text="@string/sem4"
+            android:gravity="center"
+            android:textColor="#FFFFFF"
+            android:textSize="24dp" />
+        <Button
+            android:id="@+id/sem5"
+            android:layout_width="match_parent"
+            android:layout_marginTop="5dp"
+            android:layout_height="125dp"
+            android:background="@drawable/gradient4"
+            android:text="@string/sem5"
+            android:gravity="center"
+            android:textColor="#FFFFFF"
+            android:textSize="24dp" />
+        <Button
+            android:id="@+id/sem6"
+            android:layout_width="match_parent"
+            android:layout_marginTop="5dp"
+            android:layout_height="125dp"
+            android:background="@drawable/gradient5"
+            android:text="@string/sem6"
+            android:gravity="center"
+            android:textColor="#FFFFFF"
+            android:textSize="24dp" />
+        <Button
+            android:id="@+id/sem7"
+            android:layout_width="match_parent"
+            android:layout_marginTop="5dp"
+            android:layout_height="125dp"
+            android:background="@drawable/gradient6"
+            android:text="@string/sem7"
+            android:gravity="center"
+            android:textColor="#FFFFFF"
+            android:textSize="24dp" />
+        <Button
+            android:id="@+id/sem8"
+            android:layout_width="match_parent"
+            android:layout_marginTop="5dp"
+            android:layout_height="125dp"
+            android:text="@string/sem8"
+            android:gravity="center"
+            android:textColor="#FFFFFF"
+            android:textSize="24dp"
+            android:background="@drawable/gradient7" />
+
+
+    </LinearLayout>
+
+</ScrollView>

@@ -1,0 +1,125 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:background="@drawable/gradient5"
+    android:scrollbars="vertical">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:paddingLeft="5dp"
+        android:paddingRight="5dp"
+        android:paddingTop="5dp"
+        android:paddingBottom="5dp"
+        android:orientation="vertical">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="155dp"
+            android:layout_weight="1"
+            android:weightSum="2"
+            android:orientation="horizontal">
+
+            <Button
+                android:id="@+id/wnmc"
+                android:text="Wireless Networks               And                                        Mobile Computing"
+                android:textColor="#ffffff"
+                android:layout_width="0dp"
+                android:layout_height="match_parent"
+                android:layout_weight="1"
+                android:background="@drawable/buttonborder"
+                />
+            <Button
+                android:id="@+id/pcd"
+                android:text="Principle Of         Compiler Design"
+                android:textColor="#ffffff"
+                android:layout_width="0dp"
+                android:background="@drawable/buttonborder"
+                android:layout_weight="1"
+                android:layout_height="match_parent" />
+
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="155dp"
+            android:weightSum="2"
+            android:orientation="horizontal">
+
+            <Button
+                android:id="@+id/awt"
+                android:text="Advanced Web       Technology"
+                android:textColor="#ffffff"
+                android:layout_width="0dp"
+                android:layout_weight="1"
+                android:background="@drawable/buttonborder"
+                android:layout_height="match_parent" />
+            <Button
+                android:id="@+id/is"
+                android:text="Information             Security"
+                android:textColor="#ffffff"
+                android:layout_width="0dp"
+                android:layout_weight="1"
+                android:background="@drawable/buttonborder"
+                android:layout_height="match_parent" />
+
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="155dp"
+            android:weightSum="2"
+            android:orientation="horizontal">
+
+            <Button
+                android:id="@+id/es2"
+                android:text="Employability                        Skills II"
+                android:textColor="#ffffff"
+                android:layout_width="0dp"
+                android:layout_weight="1"
+                android:background="@drawable/buttonborder"
+                android:layout_height="match_parent"/>
+            <Button
+                android:id="@+id/ajt"
+                android:text="Advanced Java             Technology"
+                android:textColor="#ffffff"
+                android:layout_width="0dp"
+                android:layout_weight="1"
+                android:background="@drawable/buttonborder"
+                android:layout_height="match_parent" />
+
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="155dp"
+            android:weightSum="2"
+            android:orientation="horizontal">
+
+            <Button
+                android:id="@+id/dotnet"
+                android:text=".Net                      Technology"
+                android:textColor="#ffffff"
+                android:layout_width="0dp"
+                android:background="@drawable/buttonborder"
+                android:layout_weight="1"
+                android:layout_height="match_parent" />
+            <Button
+                android:id="@+id/cg"
+                android:text="Computer             Graphics"
+                android:textColor="#ffffff"
+                android:layout_width="0dp"
+                android:layout_height="match_parent"
+                android:layout_weight="1"
+                android:background="@drawable/buttonborder"
+                />
+        </LinearLayout>
+
+
+
+    </LinearLayout>
+
+
+</ScrollView>

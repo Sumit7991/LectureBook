@@ -1,0 +1,12 @@
+<resources>
+    <string name="app_name">LectureBook</string>
+    <string name="sem1">&lt; Semester I &gt;</string>
+    <string name="sem2">&lt; Semester II &gt;</string>
+    <string name="sem3">&lt; Semester III &gt;</string>
+    <string name="sem4">&lt; Semester IV &gt;</string>
+    <string name="sem5">&lt; Semester V &gt;</string>
+    <string name="sem6">&lt; Semester VI &gt;</string>
+    <string name="sem7">&lt; Semester VII &gt;</string>
+    <string name="sem8">&lt; Semester VIII &gt;</string>
+    <string name="fop1">Fundamentals\nof\nProgramming</string>
+</resources>

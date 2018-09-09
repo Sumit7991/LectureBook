@@ -1,0 +1,247 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    xmlns:app="http://schemas.android.com/apk/res-auto">
+
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="vertical">
+
+        <Button
+            android:id="@+id/notes_btn"
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:background="#9c27b0"
+            android:drawableRight="@android:drawable/arrow_down_float"
+            android:onClick="notes_btn"
+            android:paddingRight="10dp"
+            android:text="Notes"
+            android:textColor="#ffffff"/>
+        <com.github.aakira.expandablelayout.ExpandableRelativeLayout
+            android:id="@+id/ex_notes_btn"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:background="#ba68c8"
+            android:padding="16dp"
+            app:ael_duration="600"
+            app:ael_expanded="false"
+            app:ael_interpolator="accelerate"
+            app:ael_orientation="vertical">
+
+            <android.support.v4.widget.NestedScrollView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content">
+
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:orientation="vertical">
+
+                    <Button
+                        android:id="@+id/notes_part1"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:textColor="#ffffff"
+                        android:text="Part I"/>
+                    <Button
+                        android:id="@+id/notes_part2"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:textColor="#ffffff"
+                        android:text="Part II"/>
+                    <Button
+                        android:id="@+id/notes_part3"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:textColor="#ffffff"
+                        android:text="Part III"/>
+
+                </LinearLayout>
+            </android.support.v4.widget.NestedScrollView>
+        </com.github.aakira.expandablelayout.ExpandableRelativeLayout>
+
+        <Button
+            android:id="@+id/ppt_btn"
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:background="#9c27b0"
+            android:drawableRight="@android:drawable/arrow_down_float"
+            android:onClick="ppt_btn"
+            android:paddingRight="10dp"
+            android:text="PPTs"
+            android:textColor="#ffffff"/>
+        <com.github.aakira.expandablelayout.ExpandableRelativeLayout
+            android:id="@+id/ex_ppt_btn"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:background="#ba68c8"
+            android:padding="16dp"
+            app:ael_duration="600"
+            app:ael_expanded="false"
+            app:ael_interpolator="accelerate"
+            app:ael_orientation="vertical">
+            <android.support.v4.widget.NestedScrollView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content">
+
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:orientation="vertical">
+                    <Button
+                        android:id="@+id/ppt_chp1"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:textColor="#ffffff"
+                        android:text="Unit I"/>
+                    <Button
+                        android:id="@+id/ppt_chp2"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:textColor="#ffffff"
+                        android:text="Unit II"/>
+                    <Button
+                        android:id="@+id/ppt_chp3"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:textColor="#ffffff"
+                        android:text="Unit III"/>
+                    <Button
+                        android:id="@+id/ppt_chp4"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:textColor="#ffffff"
+                        android:text="Unit IV"/>
+                    <Button
+                        android:id="@+id/ppt_chp5"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:textColor="#ffffff"
+                        android:text="Unit V"/>
+                    <Button
+                        android:id="@+id/ppt_chp6"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:textColor="#ffffff"
+                        android:text="Unit VI"/>
+                    <Button
+                        android:id="@+id/ppt_chp7"
+                        android:layout_below="@+id/ppt_chp2"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:textColor="#ffffff"
+                        android:text="Unit VII"/>
+                    <Button
+                        android:id="@+id/ppt_chp8"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:textColor="#ffffff"
+                        android:text="Unit VIII"/>
+                </LinearLayout>
+            </android.support.v4.widget.NestedScrollView>
+        </com.github.aakira.expandablelayout.ExpandableRelativeLayout>
+
+        <Button
+            android:id="@+id/books_btn"
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:background="#9c27b0"
+            android:drawableRight="@android:drawable/arrow_down_float"
+            android:onClick="books_btn"
+            android:paddingRight="10dp"
+            android:text="Books"
+            android:textColor="#ffffff"/>
+        <com.github.aakira.expandablelayout.ExpandableRelativeLayout
+            android:id="@+id/ex_books_btn"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:background="#ba68c8"
+            android:padding="16dp"
+            app:ael_duration="600"
+            app:ael_expanded="false"
+            app:ael_interpolator="accelerate"
+            app:ael_orientation="vertical">
+
+            <android.support.v4.widget.NestedScrollView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content">
+
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:orientation="vertical">
+
+                    <Button
+                        android:id="@+id/book1"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:textColor="#ffffff"
+                        android:text="Book1 Name"/>
+                    <Button
+                        android:id="@+id/book2"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:textColor="#ffffff"
+                        android:text="Book2 Name"/>
+                    <Button
+                        android:id="@+id/book3"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:textColor="#ffffff"
+                        android:text="Book3 Name"/>
+                </LinearLayout>
+            </android.support.v4.widget.NestedScrollView>
+        </com.github.aakira.expandablelayout.ExpandableRelativeLayout>
+
+        <Button
+            android:id="@+id/imp_links_btn"
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:background="#9c27b0"
+            android:drawableRight="@android:drawable/arrow_down_float"
+            android:onClick="imp_links_btn"
+            android:paddingRight="10dp"
+            android:text="Important Links"
+            android:textColor="#ffffff"/>
+        <com.github.aakira.expandablelayout.ExpandableRelativeLayout
+            android:id="@+id/ex_imp_links_btn"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:background="#ba68c8"
+            android:padding="16dp"
+            app:ael_duration="600"
+            app:ael_expanded="false"
+            app:ael_interpolator="accelerate"
+            app:ael_orientation="vertical">
+
+            <android.support.v4.widget.NestedScrollView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content">
+
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:orientation="vertical">
+
+                    <Button
+                        android:id="@+id/link1"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:textColor="#ffffff"
+                        android:text="Link 1"/>
+                    <Button
+                        android:id="@+id/link2"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:textColor="#ffffff"
+                        android:text="Link 2"/>
+                </LinearLayout>
+            </android.support.v4.widget.NestedScrollView>
+        </com.github.aakira.expandablelayout.ExpandableRelativeLayout>
+
+    </LinearLayout>
+
+</ScrollView>

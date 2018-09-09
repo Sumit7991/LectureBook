@@ -1,0 +1,88 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/gradient"
+    android:orientation="vertical"
+    android:weightSum="3">
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:layout_weight="1"
+        android:weightSum="2"
+        android:orientation="horizontal">
+
+        <Button
+            android:id="@+id/fee"
+            android:text="Fundamentals Of Electrical Engineering"
+            android:textColor="#ffffff"
+            android:layout_width="0dp"
+            android:background="@drawable/buttonborder"
+            android:layout_height="match_parent"
+            android:layout_weight="1"
+             />
+        <Button
+            android:id="@+id/ict"
+            android:text="Information And Communication Technology"
+            android:textColor="#ffffff"
+            android:layout_width="0dp"
+            android:background="@drawable/buttonborder"
+            android:layout_height="match_parent"
+            android:layout_weight="1"/>
+
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:layout_weight="1"
+        android:weightSum="2"
+        android:orientation="horizontal">
+
+        <Button
+            android:id="@+id/eme"
+            android:text="Elements of Mechanical Engineering"
+            android:textColor="#ffffff"
+            android:layout_width="0dp"
+            android:background="@drawable/buttonborder"
+            android:layout_height="match_parent"
+            android:layout_weight="1"/>
+        <Button
+            android:id="@+id/maths1"
+            android:text="Mathematics I"
+            android:textColor="#ffffff"
+            android:layout_width="0dp"
+            android:background="@drawable/buttonborder"
+            android:layout_height="match_parent"
+            android:layout_weight="1"/>
+
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:layout_weight="1"
+        android:weightSum="2"
+        android:orientation="horizontal">
+
+        <Button
+            android:id="@+id/physics"
+            android:text="Physics"
+            android:textColor="#ffffff"
+            android:layout_width="0dp"
+            android:background="@drawable/buttonborder"
+            android:layout_height="match_parent"
+            android:layout_weight="1"/>
+        <Button
+            android:id="@+id/cs1"
+            android:text="Communication                 Skills I"
+            android:textColor="#ffffff"
+            android:layout_width="0dp"
+            android:background="@drawable/buttonborder"
+            android:layout_height="match_parent"
+            android:layout_weight="1"/>
+
+    </LinearLayout>
+
+</LinearLayout>

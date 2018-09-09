@@ -1,0 +1,115 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:background="@drawable/gradient3"
+    android:scrollbars="vertical">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:paddingLeft="5dp"
+        android:paddingRight="5dp"
+        android:paddingTop="5dp"
+        android:paddingBottom="5dp"
+        android:orientation="vertical">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="155dp"
+            android:layout_weight="1"
+            android:weightSum="2"
+            android:orientation="horizontal">
+
+            <Button
+                android:id="@+id/ooad"
+                android:text="Object Oriented Analysis And               Design with UML"
+                android:textColor="#ffffff"
+                android:layout_width="0dp"
+                android:layout_height="match_parent"
+                android:layout_weight="1"
+                android:background="@drawable/buttonborder"
+                />
+            <Button
+                android:id="@+id/co"
+                android:text="Computer Organization"
+                android:textColor="#ffffff"
+                android:layout_width="0dp"
+                android:background="@drawable/buttonborder"
+                android:layout_weight="1"
+                android:layout_height="match_parent" />
+
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="155dp"
+            android:weightSum="2"
+            android:orientation="horizontal">
+
+            <Button
+                android:id="@+id/dbms"
+                android:text="Database             Management                      System"
+                android:textColor="#ffffff"
+                android:layout_width="0dp"
+                android:layout_weight="1"
+                android:background="@drawable/buttonborder"
+                android:layout_height="match_parent" />
+            <Button
+                android:id="@+id/py"
+                android:text="Python Programming"
+                android:textColor="#ffffff"
+                android:layout_width="0dp"
+                android:layout_weight="1"
+                android:background="@drawable/buttonborder"
+                android:layout_height="match_parent" />
+
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="155dp"
+            android:weightSum="2"
+            android:orientation="horizontal">
+
+            <Button
+                android:id="@+id/mi"
+                android:text="Microprocessor"
+                android:textColor="#ffffff"
+                android:layout_width="0dp"
+                android:layout_weight="1"
+                android:background="@drawable/buttonborder"
+                android:layout_height="match_parent"/>
+            <Button
+                android:id="@+id/nasm"
+                android:text="Numerical                 Analysis And  Statistical Methods"
+                android:textColor="#ffffff"
+                android:layout_width="0dp"
+                android:layout_weight="1"
+                android:background="@drawable/buttonborder"
+                android:layout_height="match_parent" />
+
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="155dp"
+            android:weightSum="2"
+            android:orientation="horizontal">
+
+            <Button
+                android:id="@+id/pcct"
+                android:text="Professional Communication            And Critical Thinking"
+                android:textColor="#ffffff"
+                android:layout_width="0dp"
+                android:background="@drawable/buttonborder"
+                android:layout_weight="1"
+                android:layout_height="match_parent" />
+        </LinearLayout>
+
+
+    </LinearLayout>
+
+
+</ScrollView>

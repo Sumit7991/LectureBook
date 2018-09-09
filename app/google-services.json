@@ -1,0 +1,107 @@
+{
+  "project_info": {
+    "project_number": "241006322778",
+    "firebase_url": "https://lecturebook-c57ef.firebaseio.com",
+    "project_id": "lecturebook-c57ef",
+    "storage_bucket": "lecturebook-c57ef.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:241006322778:android:20ba90d0ec015f16",
+        "android_client_info": {
+          "package_name": "com.anassolanki.root.firestorage"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "241006322778-get4s5jcc7puie5nv77rv82jq1qf84rk.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.anassolanki.root.firestorage",
+            "certificate_hash": "78a562a0c472d1e3f9d3682df3321ef59d9440fc"
+          }
+        },
+        {
+          "client_id": "241006322778-opm31e4eeiatrsc59hgvdflc4a6es5h9.apps.googleusercontent.com",
+          "client_type": 3
+        },
+        {
+          "client_id": "241006322778-opm31e4eeiatrsc59hgvdflc4a6es5h9.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyBEkFv_bdSN9BmeXuEAqc2wvEtVrPAoJXE"
+        }
+      ],
+      "services": {
+        "analytics_service": {
+          "status": 1
+        },
+        "appinvite_service": {
+          "status": 2,
+          "other_platform_oauth_client": [
+            {
+              "client_id": "241006322778-opm31e4eeiatrsc59hgvdflc4a6es5h9.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        },
+        "ads_service": {
+          "status": 2
+        }
+      }
+    },
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:241006322778:android:9951323c671de6ff",
+        "android_client_info": {
+          "package_name": "com.anassolanki.root.lecturebook"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "241006322778-s4q62i1g3qnnok734mubvonolptgd772.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.anassolanki.root.lecturebook",
+            "certificate_hash": "78a562a0c472d1e3f9d3682df3321ef59d9440fc"
+          }
+        },
+        {
+          "client_id": "241006322778-opm31e4eeiatrsc59hgvdflc4a6es5h9.apps.googleusercontent.com",
+          "client_type": 3
+        },
+        {
+          "client_id": "241006322778-opm31e4eeiatrsc59hgvdflc4a6es5h9.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyBEkFv_bdSN9BmeXuEAqc2wvEtVrPAoJXE"
+        }
+      ],
+      "services": {
+        "analytics_service": {
+          "status": 1
+        },
+        "appinvite_service": {
+          "status": 2,
+          "other_platform_oauth_client": [
+            {
+              "client_id": "241006322778-opm31e4eeiatrsc59hgvdflc4a6es5h9.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        },
+        "ads_service": {
+          "status": 2
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
