@@ -41,53 +41,12 @@
                     android:orientation="vertical">
 
                     <Button
-                        android:id="@+id/notes_chp1"
+                        android:id="@+id/notes_tp"
                         android:layout_width="match_parent"
                         android:layout_height="wrap_content"
                         android:textColor="#ffffff"
-                        android:text="Unit I"/>
-                    <Button
-                        android:id="@+id/notes_chp2"
-                        android:layout_width="match_parent"
-                        android:layout_height="wrap_content"
-                        android:textColor="#ffffff"
-                        android:text="Unit II"/>
-                    <Button
-                        android:id="@+id/notes_chp3"
-                        android:layout_width="match_parent"
-                        android:layout_height="wrap_content"
-                        android:textColor="#ffffff"
-                        android:text="Unit III"/>
-                    <Button
-                        android:id="@+id/notes_chp4"
-                        android:layout_width="match_parent"
-                        android:layout_height="wrap_content"
-                        android:textColor="#ffffff"
-                        android:text="Unit IV"/>
-                    <Button
-                        android:id="@+id/notes_chp5"
-                        android:layout_width="match_parent"
-                        android:layout_height="wrap_content"
-                        android:textColor="#ffffff"
-                        android:text="Unit V"/>
-                    <Button
-                        android:id="@+id/notes_chp6"
-                        android:layout_width="match_parent"
-                        android:layout_height="wrap_content"
-                        android:textColor="#ffffff"
-                        android:text="Unit VI"/>
-                    <Button
-                        android:id="@+id/notes_chp7"
-                        android:layout_width="match_parent"
-                        android:layout_height="wrap_content"
-                        android:textColor="#ffffff"
-                        android:text="Unit VII"/>
-                    <Button
-                        android:id="@+id/notes_chp8"
-                        android:layout_width="match_parent"
-                        android:layout_height="wrap_content"
-                        android:textColor="#ffffff"
-                        android:text="Unit VIII"/>
+                        android:textAllCaps="false"
+                        android:text="TutotialsPoint"/>
 
 
                 </LinearLayout>
